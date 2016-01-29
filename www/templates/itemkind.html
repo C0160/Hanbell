@@ -1,0 +1,9 @@
+<ion-view view-title="产品类别">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in entityList">
+                <a ng-click="go('/app/itemmodel',e)">{{e.kind}}</a>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

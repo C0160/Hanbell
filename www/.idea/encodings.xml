@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/controllers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/services.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/itemcategory.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/itemcompany.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/iteminventory.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/itemkind.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/itemmaster.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/itemmodel.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/login.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/menu.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/modal.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/pricing.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/templates/pricinggroup.html" charset="UTF-8" />
+  </component>
+</project>

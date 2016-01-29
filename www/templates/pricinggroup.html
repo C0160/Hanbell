@@ -1,0 +1,9 @@
+<ion-view view-title="价格权限">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in entityList">
+                <a ng-click="go('/app/pricing',e)"><span>{{e.groupid}}</span><span class="FRight">{{e.name}}</span></a>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

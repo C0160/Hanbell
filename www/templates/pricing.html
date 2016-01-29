@@ -1,0 +1,42 @@
+<ion-view view-title="价格列表">
+    <ion-content>
+        <ion-list>
+            <ion-item>
+                <span>单号</span><span class="FRight">{{pricing.pricingPK.pricingid}}</span>
+            </ion-item>
+            <ion-item>
+                <span>件号</span><span class="FRight">{{pricing.pricingPK.itnbr}}</span>
+            </ion-item>
+            <ion-item>
+                <span>名称</span><span class="FRight">{{pricing.itemdesc}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price09 && pricing.price09">
+                <span>牌价</span><span class="FRight">{{pricing.price09 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price08 && pricing.price08">
+                <span>业务</span><span class="FRight">{{pricing.price08 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price07 && pricing.price07">
+                <span>业务</span><span class="FRight">{{pricing.price07 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price06 && pricing.price06">
+                <span>区域主管</span><span class="FRight">{{pricing.price06 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price05 && pricing.price05">
+                <span>区域主管</span><span class="FRight">{{pricing.price05 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price04 && pricing.price04">
+                <span>区域经理</span><span class="FRight">{{pricing.price04 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price03 && pricing.price03">
+                <span>区域经理</span><span class="FRight">{{pricing.price03 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price02 && pricing.price02">
+                <span>产品部</span><span class="FRight">{{pricing.price02 | number}}</span>
+            </ion-item>
+            <ion-item ng-if="pricinggroup.price01 && pricing.price01">
+                <span>总经理价</span><span class="FRight">{{pricing.price01 | number}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,20 @@
+<ion-view view-title="零件列表">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in entityList">
+                <div>
+                    {{e.itdsc}}
+                    <button class="button button-positive button-small FRight"
+                            ng-click="goPricing('/app/pricinggroup',e)">查价格
+                    </button>
+                    <button class="button button-positive button-small FRight" style="margin-right: 2px"
+                            ng-click="goInventory('/app/itemcompany',e)">查库存
+                    </button>
+                </div>
+                <div>
+                    {{e.itnbr}}
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

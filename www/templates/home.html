@@ -1,0 +1,13 @@
+<ion-view view-title="Home">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in menuList">
+                <!--<div class="card">-->
+                    <div class="item item-text-wrap">
+                        <a ng-click="go(e.url)">{{e.name}}</a>
+                    </div>
+                <!--</div>-->
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,9 @@
+<ion-view view-title="库存列表">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in entityList">
+                <span>{{e.invwh.wareh}}-{{e.invwh.whdsc}}</span><span class="FRight">{{e.onhand1 | number}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

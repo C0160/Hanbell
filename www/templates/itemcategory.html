@@ -1,0 +1,9 @@
+<ion-view view-title="零件分类">
+    <ion-content>
+        <ion-list>
+            <ion-item ng-repeat="e in entityList">
+                <a ng-click="go('/app/itemmaster',e)"><span>{{e.name}}</span><span class="FRight">{{e.category}}</span></a>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
